@@ -55,3 +55,8 @@ defaults:
 tag_page_dir: tag
 tag_page_layout: tag_page
 tag_permalink_style: /:title
+
+# Include webmanifest so that ity can be recognized locally
+webrick:
+  mime_types:
+    application/manifest+json: [webmanifest]
