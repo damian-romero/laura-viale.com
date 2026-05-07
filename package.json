@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/CloudCannon/vonge-jekyll-bookshop-template#readme",
   "dependencies": {
-    "@bookshop/jekyll-engine": "3.16.5",
-    "@bookshop/generate": "3.16.5"
+    "@bookshop/generate": "^2.4.2",
+    "@bookshop/jekyll-engine": "^1.7.1"
   }
 }

@@ -1,0 +1,8 @@
+[build]
+  command = "npm install && npm run jekyll:install && npm run build"
+  publish = "site/_site"
+
+[build.environment]
+  RUBY_VERSION = "3.2.0"
+  NODE_VERSION = "18"
+
