@@ -5,10 +5,30 @@
     <div class="row">
       <div class="col col-12">
         <div class="{{c}}__inner">
-
           <div class="{{c}}__left">
-            <h1 class="{{c}}__title">{{ include.title }}</h1>
+            {% if include.overline %}
+              <p class="{{c}}__overline">{{ include.overline }}</p>
+            {% endif %}
+            <h1 class="{{c}}__title">
+              {{ include.title }}
+              {% if include.title_italic %}
+                <em class="{{c}}__title-em">{{ include.title_italic }}</em>
+              {% endif %}
+            </h1>
             <div class="{{c}}__description">{{ include.description_html }}</div>
+            {% if include.language_pills %}
+              <div class="{{c}}__pills">
+                {% for pill in include.language_pills %}
+                  {% if pill.highlight %}
+                    <span class="{{c}}__pill {{c}}__pill--highlight">{{ pill.label }}</span>
+                  {% elsif pill.teal %}
+                    <span class="{{c}}__pill {{c}}__pill--teal">{{ pill.label }}</span>
+                  {% else %}
+                    <span class="{{c}}__pill">{{ pill.label }}</span>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            {% endif %}
             <div class="{{c}}__btn">
               <a href="{{ include.cta_button_link }}" class="cta-button c-button c-button--primary c-button--small">{{ include.cta_button }}</a>
               <a class="works-button c-button c-button--secondary c-button--small" href="{{ include.works_button_link }}">
@@ -16,13 +36,11 @@
               </a>
             </div>
           </div>
-
           <div class="{{c}}__right">
             <div class="{{c}}__image">
-              <img loading="lazy" src="{{ include.image }}" alt="{{ include.hero_image_alt }}">
+              <img loading="lazy" src="{{ include.image }}" alt="{{ include.image_alt }}">
             </div>
           </div>
-
         </div>
       </div>
     </div>

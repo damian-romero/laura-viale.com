@@ -12,10 +12,15 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
+  overline: ""
   title: ""
+  title_italic: ""
   description_html: ""
   image: ""
   image_alt: ""
+  language_pills:
+    - label: ""
+      highlight: false
   cta_button: ""
   cta_button_link: ""
   works_button: ""
