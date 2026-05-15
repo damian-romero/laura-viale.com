@@ -4,15 +4,14 @@
     <div class="row">
       <div class="c-header__inner">
 
-        <div class="logo">
-          <a class="logo__link" href="{{ site.baseurl }}/">
-          {%if site.data.navigation.logo_image %}
-            <img class="logo__image" src="{{ site.baseurl }}{{ site.data.navigation.logo_image }}" alt="{{ site.data.general_settings.title }}">
-          {% else %}
-            {{ site.data.settings.title }}
-          {% endif %}
-          </a>
-        </div>
+       <div class="logo">
+        <a class="logo__link" href="{{ site.baseurl }}/" style="display:flex;align-items:center;gap:10px;text-decoration:none;">
+          <img src="{{ site.baseurl }}/images/favicons/favicon.svg" alt="LV" width="30" height="30">
+          <span style="font-family:'Cormorant Garamond',Georgia,serif;font-size:1.375rem;font-weight:300;letter-spacing:0.1em;color:#33303a;white-space:nowrap;">
+            <span style="color:#5b9eb0;">Laura</span>&thinsp;<span style="color:#d4788a;">Viale</span>
+          </span>
+        </a>
+      </div>       
 
         <nav class="main-nav">
           <div class="main-nav__box">
@@ -46,7 +45,6 @@
             </ul>
           </div>
 
-          {% bookshop_include social-link %}
         </nav>
 
         <div class="nav-button">

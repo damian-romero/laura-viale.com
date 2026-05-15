@@ -2,14 +2,14 @@ footer_menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Projects'
-      url: '/projects/'
-    - title: 'Elements'
-      url: '/elements/'
     - title: 'About'
       url: '/about/'
+    - title: 'Projects'
+      url: '/projects/'
+        #    - title: 'Elements'
+        #    url: '/elements/'
     - title: 'Blog'
       url: '/blog/'
 
 copyright_text_html: >-
-  <p> 2025 &copy; <a href="/">Vonge</a>. Template by <a href="https://cloudcannon.com/">CloudCannon</a>.</p>
+  <p> 2026  &copy; Laura Viale. <a href="/">Vonge</a> website template by <a href="https://cloudcannon.com/">CloudCannon</a>.</p>
