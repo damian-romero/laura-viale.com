@@ -31,6 +31,16 @@
 		}
 	}
 
+&__timezone {
+  margin-top: 12px;
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: $stone;
+  text-align: center;
+}
+
 	&__form {
 		position: relative;
 		margin-bottom: 60px;
