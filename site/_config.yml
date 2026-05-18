@@ -1,4 +1,5 @@
 title: Laura Viale
+url: "https://laura-viale.com"
 
 plugins:
   - jekyll-bookshop
@@ -52,7 +53,8 @@ defaults:
       layout: post
 
 # Tags
-tag_page_dir: tag
+# tag_page_dir: tag
+tag_page_dir: ""
 tag_page_layout: tag_page
 tag_permalink_style: /:title
 
