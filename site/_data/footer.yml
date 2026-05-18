@@ -1,18 +1,18 @@
 footer_menu__settings:
   menu__items:
-    - title: 'Home'
+    - title: 'HOME'
       url: '/'
-    - title: 'About'
+    - title: 'ABOUT'
       url: '/about/'
-    - title: 'Portfolio'
+    - title: 'PORTFOLIO'
       url: '/portfolio/'
         #    - title: 'Elements'
         #    url: '/elements/'
-#    - title: 'Blog'
+#    - title: 'BLOG'
 #      url: '/blog/'
-    - title: 'Courses'
+    - title: 'COURSES'
       url: '/courses/'
-    - title: 'Contact'
+    - title: 'CONTACT'
       url: '/contact/'
 
 copyright_text_html: >-

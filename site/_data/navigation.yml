@@ -2,17 +2,17 @@
 
 menu__settings:
   menu__items:
-    - title: 'Home'
+    - title: 'HOME'
       url: '/'
-    - title: 'About'
+    - title: 'ABOUT'
       url: '/about/'
-    - title: 'Portfolio'
+    - title: 'PORTFOLIO'
       url: '/portfolio/'
-#    - title: 'Blog'
+#    - title: 'BLOG'
 #      url: '/blog/'
-    - title: 'Courses'
+    - title: 'COURSES'
       url: '/courses/'
-    - title: 'Contact'
+    - title: 'CONTACT'
       url: '/contact/'
         #    - title: 'Pages'
         #      submenu:
