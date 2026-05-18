@@ -2,8 +2,8 @@
 spec:
   structures:
     - content_blocks
-  label: Projects List
-  description: Lists all of the site's projects
+  label: Portfolio List
+  description: Lists all of the site's portfolio
   icon: wysiwyg
   tags:
     - Collections

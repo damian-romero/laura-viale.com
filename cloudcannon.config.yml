@@ -44,9 +44,9 @@ collections_config:
     schemas:
       default:
         path: ".cloudcannon/schemas/page.html"
-  projects:
-    path: collections/_projects
-    url: "/projects/[slug]"
+  portfolio:
+    path: collections/_portfolio
+    url: "/portfolio/[slug]"
     description: ''
     icon: work
     disable_add: false
@@ -89,7 +89,7 @@ collection_groups:
   - heading: Content
     collections:
       - pages
-      - projects
+      - portfolio
       - testimonials
   - heading: Blogging
     collections:

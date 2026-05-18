@@ -23,9 +23,9 @@ collections:
   pages:
     output: true
     permalink: /:title
-  projects:
+  portfolio:
     output: true
-    permalink: /project/:slug
+    permalink: /portfolio/:slug
   testimonials:
     output: false
   posts:
@@ -43,7 +43,7 @@ defaults:
     values:
       permalink: /
   - scope:
-      type: projects
+      type: portfolio
     values:
       layout: project
   - scope:
