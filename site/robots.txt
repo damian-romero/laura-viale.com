@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Block crawling of internal Jekyll and system directories
+Disallow: /tag/
+Disallow: /_site/
+Disallow: /assets/
+Disallow: /images/
+
+# Block known bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://laura-viale.com/sitemap.xml
