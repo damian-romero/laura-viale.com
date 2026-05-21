@@ -38,7 +38,10 @@
           </div>
           <div class="{{c}}__right">
             <div class="{{c}}__image">
-              <img loading="lazy" src="{{ include.image }}" alt="{{ include.image_alt }}">
+              <picture>
+                <source srcset="{{ include.image | replace: '.jpg', '.webp' }}" type="image/webp">
+                <img loading="eager" fetchpriority="high" src="{{ include.image }}" alt="{{ include.image_alt }}" width="480" height="520">
+              </picture>
             </div>
           </div>
         </div>
